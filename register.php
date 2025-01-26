@@ -11,7 +11,7 @@ if(!$select)
     $email=$_POST['email'];
     $password=$_POST['password'];
    //$repass=$_POST['re-password'];
-   
+    
     
     $sql="INSERT INTO `user` (`username`, `email`, `password`)VALUES ('$username', '$email', '$password')";
 

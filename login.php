@@ -12,7 +12,7 @@ if(!$select)
   
      $email=$_POST['email'];
     $password=$_POST['password'];
-   
+    
     
 
    $sql=mysqli_query($conn,"SELECT * FROM user where email='$email' AND password ='$password' ");
@@ -46,7 +46,7 @@ if(!$select)
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"> 
 
 <head>
   <title>Academics &mdash; Website by Colorlib</title>
